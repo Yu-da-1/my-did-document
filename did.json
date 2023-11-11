@@ -1,22 +1,22 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:example.com",
+  "id": "did:web:my-did-document.vercel.app",
   "publicKey": [
     {
-      "id": "did:web:example.com#owner",
+      "id": "did:web:my-did-document.vercel.app#owner",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:example.com",
+      "controller": "did:web:my-did-document.vercel.app",
       "publicKeyBase58": "GfHq2tTVk9z4eXgyVUpZ53srg4ZeCBSwePcPUGRzqCBv29zKTACDAaDPR7vD"
     }
   ],
   "authentication": [
-    "did:web:example.com#owner"
+    "did:web:my-did-document.vercel.app#owner"
   ],
   "service": [
     {
-      "id": "did:web:example.com#vcs",
+      "id": "did:web:my-did-document.vercel.app#vcs",
       "type": "VerifiableCredentialService",
-      "serviceEndpoint": "https://example.com/vc/"
+      "serviceEndpoint": "https://some-endpoint.com/vc/"
     }
   ]
 }
