@@ -1,0 +1,22 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:example.com",
+  "publicKey": [
+    {
+      "id": "did:web:example.com#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:example.com",
+      "publicKeyBase58": "GfHq2tTVk9z4eXgyVUpZ53srg4ZeCBSwePcPUGRzqCBv29zKTACDAaDPR7vD"
+    }
+  ],
+  "authentication": [
+    "did:web:example.com#owner"
+  ],
+  "service": [
+    {
+      "id": "did:web:example.com#vcs",
+      "type": "VerifiableCredentialService",
+      "serviceEndpoint": "https://example.com/vc/"
+    }
+  ]
+}
